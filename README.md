@@ -24,7 +24,7 @@ Your system must have a valid MATLAB installation (as of 2023/04, R2022b), along
 ```pip install git+https://github.com/facebookresearch/segment-anything.git```\
 and place model `.pth` files in `src/kirillov2023/checkpoints/` (e.g. `sam_vit_h`)
 
-3. (OPTIONAL) Install [gargimahale's implementation of spatially-controlled SST](https://github.com/gargimahale/Doodle) to `./neural_doodle_compat` (do not overwrite files).\
+3. (OPTIONAL) Install [gargimahale's implementation of spatially-controlled SST](https://github.com/gargimahale/Doodle) to `src/neural_doodle_compat` (do not overwrite files).\
  This is a tf1 implementation which runs with less memory overhead than the SST implementation provided in this repository (tf2 gradient tape is memory-expensive). Use this option if you encounter memory overflows.
 
 ## Usage
